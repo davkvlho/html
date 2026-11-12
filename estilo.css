@@ -1,0 +1,94 @@
+body {
+font-family: 'Great Vibes', 'Georgia', cursive, sans-serif;
+background-color: #69edf5;
+text-align: center;
+margin: 0;
+padding: 20px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.container {
+    background-color: #fff1ba;
+    border: 3px solid #ffa1db;
+    border-radius: 10px;
+    max-width: 00px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container2 {
+    background-color: #fff1ba;
+    border: 3px solid #ffa1db;
+    border-radius: 10px;
+    max-width: 270px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.lista {
+    background-color: #fff1ba;
+    border: 3px solid #ffa1db;
+    border-radius: 8px;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #ffa1db;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #69edf5;
+    border-radius: 5px;
+}
+
+button { 
+  background-color: #ffa1db; 
+  padding: 10px; 
+  border: 2px solid #69edf5; 
+  border-radius: 4px; 
+  width: 100%; 
+  cursor: pointer; 
+}
+
+button:hover {
+    background-color: #ffa1db;
+    
+}
+
+.resultado {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.explicacao {
+    font-size: 0.9em;
+    color: #69edf5;
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}

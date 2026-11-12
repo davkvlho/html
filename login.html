@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Bake My Day - Login</title>
+</head>
+<body>
+
+    <header>
+        <h1>Área de Acesso do Cliente</h1>
+    </header>
+
+    <nav>
+        <div class="lista">
+        <ul style="list-style-type: none; padding: 0; margin: 0;">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="produtos.html">Nossos Cupcakes</a></li>
+            <li><a href="cadastro.html">Cadastro / Contato</a></li>
+            <li><a href="login.html">Área do Cliente</a></li>
+            <li><a href="quemsomos.html">Quem Somos</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Identifique-se para gerenciar seus pedidos</h2>
+            <p>Insira seus dados abaixo para acessar sua conta de entregas.</p>
+
+            <form action="index.html" method="post">
+                <div class="container">
+                <div>
+                    <label for="txt-login-email">E-mail Cadastrado:</label>
+                    <input type="email" id="txt-login-email" name="login_email" required placeholder="exemplo@email.com">
+                </div>
+
+                <div>
+                    <label for="txt-login-senha">Sua Senha:</label>
+                    <input type="password" id="txt-login-senha" name="login_senha" required placeholder="Digite sua senha">
+                </div>
+                <br>
+
+                <div>
+                    <button type="submit">Entrar na Conta</button>
+                </div>
+                </div>
+            </form>
+
+            <p>Ainda não tem conta? <a href="cadastro.html">Crie seu cadastro aqui</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bake My Day Cupcakes. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
